@@ -1,0 +1,47 @@
+.admin_section {
+
+    border-radius: 10px;
+    margin: 5rem 3rem;
+    box-shadow: -20px 20px 32px 4px rgb(0 0 4 / 20%);
+
+}
+
+.admin_section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.admin_section ul li {
+    font-size: 2.3rem;
+    margin: 2rem;
+    padding: 0rem 2.5rem;
+    border-radius: 10px;
+    color: #000000;
+    
+    background-image: linear-gradient(to right, #eee6eb, #ebe4eb, #e7e3ea, #e3e1ea, #dfe0e9, #dce0e9, #d8dfe9, #d4dfe9, #d0e0e9, #cde1e7, #cce2e5, #cbe3e1);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.admin_section ul li:hover{
+    background: rgb(228,169,195);
+background: linear-gradient(49deg, rgba(228,169,195,1) 0%, rgba(125,154,181,1) 100%);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+li .admin_section_under {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.admin_section_under img{
+    margin-right: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.allBook {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.allBook .box {
+  width: 400px;
+}
+
+/* @media (max-width: 991px) {
+  .allBook .box {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .allBook .box {
+    width: 50%;
+  }
+}
+@media (max-width: 450px) {
+  .allBook .box {
+    width: 100%;
+  }
+} */

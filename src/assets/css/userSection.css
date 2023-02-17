@@ -1,0 +1,361 @@
+* {
+    margin: 0rem;
+}
+
+/* table {
+    align-items: center;
+} */
+
+/* navbar */
+
+.header_admin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-color: #d4911f;
+    padding: 1.8rem 5%;
+}
+
+.icons {
+    display: block;
+    position: sticky;
+    /* border: 2px solid black; */
+    padding-right: 1rem;
+}
+
+.icons img {
+    width: 3rem;
+}
+.header_admin .admin {
+    /* padding-left: 2rem; */
+    font-size: 1.7rem;
+}
+.header_admin .logo img {
+    /* height: 5rem;
+    padding-left: 2rem; */
+    padding-left: 2rem;
+}
+@media (max-width: 450px) {
+    h1 {
+        font-size: 150%;
+    }
+    .icons img {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 451px) {
+    h1 {
+        font-size: 145%;
+    }
+    .icons img {
+        width: 3rem;
+        margin-right: 0.4rem;
+    }
+    .header_admin .logo img {
+        padding-left: 0rem;
+    }
+}
+@media (max-width: 349px) {
+    h1 {
+        font-size: 140%;
+    }
+    .icons img {
+        width: 2.7rem;
+        margin-left: 0.4rem;
+    }
+    .header_admin .logo img {
+        padding-left: 0rem;
+    }
+}
+/* navbar end */
+
+.admin_all {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.admin_all1 {
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    box-shadow: 15px 15px 15px -11px grey;
+}
+
+.admin_all2 {
+    padding: 4rem;
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+
+    /* box-shadow: 23px 22px 41px 12px gray; */
+    border: 2px solid black;
+}
+
+.admin_all1 img {
+    margin-right: 1.5rem;
+    margin-top: 2em;
+}
+
+.box1 {
+    border: 0.5px solid black;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    font-size: 2.2rem;
+    border-radius: 8px;
+}
+
+.abc1 {
+    margin-top: 22%;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.abc1 a {
+    padding: 2rem;
+}
+
+.abc1 li a {
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.abc1 a {
+    color: #551a8b;
+}
+
+.abc_name {
+    display: inline-block;
+    text-align: justify;
+}
+@media (max-width: 1050px) {
+    .admin_all2 {
+        padding-left: 0rem;
+    }
+}
+@media only screen and (max-width: 699px) and (min-width: 475px) {
+    .admin_all2 h3 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 475px) {
+    .admin_all2 h3 {
+        font-size: 1.8rem;
+    }
+    .admin_all2 table tr td h3 {
+        padding-left: 1rem;
+    }
+}
+@media (max-width: 700px) {
+    .admin_all {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .admin_all1 {
+        display: flex;
+        flex-direction: row;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        width: auto;
+    }
+    .admin_all2 {
+        margin-left: -0.5rem;
+    }
+}
+
+@media (max-width: 722px) {
+    .admin_all2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 722px) {
+    .abc {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 45%;
+    }
+    .abc1 {
+        margin-top: 4%;
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1318px) {
+    .abc_name {
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1500px) {
+    .admin_all2 h3 {
+        font-size: 2.1rem;
+    }
+}
+@media only screen and (max-width: 1318px) and (min-width: 721px) {
+    .admin_all1 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 352px) {
+    .admin_all1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .abc1 {
+        margin-top: 4%;
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+}
+
+.abc {
+    display: flex;
+}
+
+.abc_name {
+    margin-top: 3.5rem;
+    font-size: 1.5rem;
+}
+.admin_all .admin_all1 .abc1 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.admin_all .admin_all1 .abc1 ul li {
+    font-size: 4rem;
+    margin: 3rem;
+    padding: 0.5rem 5.5rem;
+    border-radius: 10px;
+    color: #000000;
+
+    background-image: linear-gradient(
+        to right,
+        #eee6eb,
+        #ebe4eb,
+        #e7e3ea,
+        #e3e1ea,
+        #dfe0e9,
+        #dce0e9,
+        #d8dfe9,
+        #d4dfe9,
+        #d0e0e9,
+        #cde1e7,
+        #cce2e5,
+        #cbe3e1
+    );
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.admin_all .admin_all1 .abc1 ul li:hover {
+    background: rgb(228, 169, 195);
+    background: linear-gradient(
+        49deg,
+        rgba(228, 169, 195, 1) 0%,
+        rgba(125, 154, 181, 1) 100%
+    );
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.admin_all .admin_all1 .abc1 ul li {
+    margin: 0.8rem;
+    padding: 0.3rem;
+}
+
+/* all books section  */
+
+.admin_all .admin_all2 table,
+th,
+td {
+    border-style: groove hidden ridge;
+    border-collapse: collapse;
+}
+.book_img {
+    width: 14rem;
+}
+.admin_all2 table tr td h3 {
+    padding-left: 1.5rem;
+    /* font-size: 2.2rem; */
+}
+
+.admin_all2 table tr td button:hover {
+    background: red;
+    transition: 0ms;
+}
+
+.admin_all2 table tr td button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: orange;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+* {
+    margin: 0;
+}
+
+/* all books section end  */
+.book_img {
+    background-color: white;
+}
+.admin_all .admin_all2 .heading::before {
+    content: "";
+    position: absolute;
+    top: 51%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 0.01rem;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+
+.user_img {
+    width: 14rem;
+    background-color: white;
+    border-radius: 50%;
+}
+@media (max-width: 1200px) {
+    .user_img {
+        width: 11rem;
+    }
+}
+@media (max-width: 475px) {
+    .user_img {
+        width: 8rem;
+    }
+}

@@ -1,0 +1,48 @@
+.one ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.one > ul > li {
+  float: left;
+  position: relative;
+}
+
+.one ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.one ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+.one ul li a:hover {
+  /* background: green; */
+}
+h1 {
+  /* background: green; */
+  margin: 0;
+}
+
+.one ul ul li a {
+  display: block;
+  background: black;
+}
+
+.one ul li ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+}
+
+.one ul li:hover ul {
+  display: block;
+}
+.one ul ul {
+  width: 100%;
+}
